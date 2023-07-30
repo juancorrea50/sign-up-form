@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+        <div class="container">
+            <img src="./Background.jpg" alt="background with leaves" id="grass">
+            <div class="logo-container">
+                <img src="odin-lined.png" alt="Odin Logo" id="odin">
+                <h1>Odin</h1>
+            </div>
+            <div class="info-container">
+                <div class="top-info">
+                    <h1>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                    <br>Sign up <em>now</em> to get started</h1>
+                    <h1>You <em>know</em> you want to.</h1>
+                </div>
+
+                <div class="f-container">
+                    <form id="form" action="" method="get">
+                        <legend>Let's do this!</legend>
+                        <div class="input-container">
+                            <div class="label-input-1">
+                                <label for="first-name">First Name</label>
+                                <input type="text" id="first-name" placeholder="First Name" required>
+                            </div>
+                            <div class="label-input-2">
+                                <label for="last-name">Last Name</label>
+                                <input type="text" id="last-name" placeholder="Last Name" required>
+                            </div>
+                            <div class="label-input-3">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="example@yahoo.com" required>
+                            </div>
+                            <div class="label-input-4">
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" name="phone-number" id="phone-number" placeholder="xxx-xxx-xxxx" required>
+                            </div>
+                            <div class="label-input-5">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" placeholder="Password" required>
+                            </div>
+                            <div class="label-input-6">
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" id="confirm-password" name="Confirm Password" placeholder="Please Confirm Password" required>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="bottom-info">
+                    <button class="create-account" form="form" type="submit">Create Account</button>
+                    <p class="account-check-text">Already have an account? <a href="">Log in</a></p>
+                </div>
+
+            </div>
+        </div>
+
+    
+</body>
+</html>
